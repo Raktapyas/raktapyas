@@ -1,0 +1,21 @@
+/* ────────────────────────────────────────────────────────────
+ * Custom Theme for SwayOSD
+ * Made with Omarchist
+ * ────────────────────────────────────────────────────────────
+ */
+
+@define-color background-color #000000;
+@define-color border-color #4A0E1A;
+@define-color label #DC143C;
+@define-color image #DC143C;
+@define-color progress #DC143C;
+
+progressbar trough {
+    background-color: alpha(@border-color, 0.65);
+    border: 1px solid alpha(@progress, 0.25);
+    border-radius: 1px;
+}
+
+progress {
+    border-radius: 1px;
+}
